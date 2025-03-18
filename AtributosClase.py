@@ -1,7 +1,16 @@
+'''
+En este ejercicio se pondra en practicas dos ideas conceptuales
+los atributos de clase y los atributos de instancia:
+Los atributos de instancia son aquellos atributos que se realacionan con la creacion de los objetos en cuestion.
+osea los objetos que hemos trabajado desde siempre, donde las modificaciones de los atributos que representadas
+en el mismo objeto por ejemplo auto1 de la clase auta puede tener un atributo de color y este sea amarillo
+en ese caso estamos trabajando con atributos de instacia
+la idea de "El atributo de clase" es la simplemente la modificaciones de los atributos de una clase en cuestion
 
+'''
 
 class Persona:
-
+    #En este caso seria un atributo de clase podriamos tomarlo como un ID de clase
     atributo_clase = 0
 
     def __init__(self, atributo_instancia):
